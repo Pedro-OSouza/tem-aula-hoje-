@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tem aula hoje?</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <div class="bg">
+    </div>
+    <header>
+        <div class="container">
+            <h1>Tem aula Hoje?</h1>
+        </div>
+    </header>
+    <main>
+
+        <form>
+            <h2>Será que hoje tem aula?</h2>
+            <div class="img">
+                <img src="./assets/macaquin.webp" alt="Macaquinho pensando se tem aula hoje">
+            </div>
+            <div class="radio-inpts">
+                <h3>Tem aula hoje?</h3>
+                <div class="opt">
+                    <input type="radio" name="tem-aula" id="tem-sim" value="sim">
+                    <label for="tem-sim">Tem sim.</label>
+                </div>
+                <div class="opt">
+                    <input type="radio" name="tem-aula" id="tem-nao" value="nao">
+                    <label for="tem-nao">Tem não.</label>
+                </div>
+                <div class="opt">
+                    <input type="radio" name="tem-aula" id="nao-sei" value="nao-sei">
+                    <label for="nao-sei">Não sei.</label>
+                </div>
+            </div>
+
+            <button type="submit" id="enviar">Enviar</button>
+        </form>
+    </main>
+
+    <script src="./app.js"></script>
+</body>
+</html>
